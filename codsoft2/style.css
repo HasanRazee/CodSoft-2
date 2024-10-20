@@ -1,0 +1,102 @@
+@import url();
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+section{
+    min-height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url("07sachin-bat3 (2).jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    width:85%;
+    margin: auto;
+
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float:left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: 35px;
+    font-size: inline;
+    color:#daeb20;
+
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    padding:0px 5px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+nav ul li.active{
+    background-color: #eb7620;}
+.article{
+    width:50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+
+}
+.article h1{
+    font-size: 36px;
+    color:red;
+    letter-spacing: 1.5px;
+    font-weight:800;
+    margin-bottom:25px;
+}
+.article p{
+    font-size: 18px;
+    color:aliceblue;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color:white;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    padding: 15 px 35 px;
+    letter-spacing: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-transform: uppercase;
+    text-decoration:rgb(0, 79, 128);
+    background-color:rgb(0, 119, 255);
+    border-radius: 2px;
+}
+.article .btn:hover{
+    background-color: wheat;
+    transition: 0.5s ease;
+}
+footer {
+    text-align: center;
+    font-size: small;
+    padding: 1px;
+    background-color: #050505;
+    color: rgb(114, 114, 114);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+}
